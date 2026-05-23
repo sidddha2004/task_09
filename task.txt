@@ -1,0 +1,14 @@
+TASK_T09 — Product Landing Page Built and Deployed Grade B  110 GBP  3  
+MP  Open  Tech 
+Who can do it Participants with web building skills (Webflow, Wix, Framer,  
+WordPress, or hand-coded HTMLCSS) 
+Estimated time 4–6 hours 
+Objective Build and deploy a complete, live product landing page for an assigned  
+product or brand. Page must include hero section with headline and CTA, product  
+feature highlights, a trustcredibility section (certifications, testimonials, or  
+endorsements), pricing or enquiry section, and mobile-responsive design. 
+Expected output Live published URL, mobile-responsive, loading in under 3  
+seconds on a standard connection, with all links functional. 
+Proof required Live URL + PageSpeed screenshot showing performance score +  
+mobile view screenshot. 
+Cap 1 time per month per person · One product per submission
