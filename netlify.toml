@@ -1,12 +1,3 @@
 [build]
   publish = "public"
-  command = "echo 'Static site - skipping build'"
-  node_bundler = "none"
-
-[build.environment]
-  NODE_VERSION = "18"
-  NPM_CONFIG_PRODUCTION = "false"
-
-[[plugins]]
-  name = "static"
-  enabled = true
+  command = "echo done"
