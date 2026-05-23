@@ -1,0 +1,7 @@
+# Ignore Next.js project
+adishila-web/
+.git/
+node_modules/
+.next/
+*.lock
+*.log
