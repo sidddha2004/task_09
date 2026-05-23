@@ -1,0 +1,8 @@
+{
+  "name": "adishila-static",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Static site'",
+    "postinstall": "echo 'No dependencies needed'"
+  }
+}
