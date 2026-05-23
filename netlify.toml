@@ -1,8 +1,3 @@
 [build]
-  publish = "dist"
-  command = "mkdir dist && cp index.html styles.css script.js dist/"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+  publish = "public"
+  command = "mkdir -p public && cp index.html styles.css script.js public/"
