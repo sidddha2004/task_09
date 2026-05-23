@@ -1,10 +1,6 @@
 [build]
   publish = "dist"
   command = "mkdir dist && cp index.html styles.css script.js dist/"
-  functions = "netlify/functions"
-
-[build.environment]
-  NODE_VERSION = "18"
 
 [[redirects]]
   from = "/*"
