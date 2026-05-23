@@ -1,3 +1,12 @@
 [build]
   publish = "public"
-  command = "mkdir -p public && cp index.html styles.css script.js public/"
+  command = "echo 'Static site - skipping build'"
+  node_bundler = "none"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_CONFIG_PRODUCTION = "false"
+
+[[plugins]]
+  name = "static"
+  enabled = true
