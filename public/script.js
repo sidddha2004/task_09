@@ -227,7 +227,7 @@
             });
         }, observerOptions);
 
-        document.querySelectorAll('.feature-card, .product-card, .testimonial-card, .pricing-card').forEach(el => {
+        document.querySelectorAll('.feature-card, .product-card, .testimonial-card, .pricing-card, .catalog-card').forEach(el => {
             observer.observe(el);
         });
     }
