@@ -8,15 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="dns-prefetch" href="https://adishila.in">
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"></noscript>
-    <link rel="preload" as="image" href="https://adishila.in/img/kavach-om.jpeg">
+    <link rel="preload" as="image" href="https://adishila.in/img/kavach-om.jpeg" imagesrcset="https://adishila.in/img/kavach-om.jpeg 800w" imagesizes="200px">
     <style>
         /* Critical CSS for above-the-fold content */
         body { margin: 0; font-family: system-ui, sans-serif; }
         .hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: #3D1F1A; }
+        .hero-title { color: #fff; font-size: 3rem; }
     </style>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="https://adishila.in/img/kavach-om.jpeg" as="image">
 </head>
 <body>
     <!-- Skip Link for Accessibility -->
@@ -159,7 +161,7 @@
                         <span class="catalog-badge">01</span>
                     </div>
                     <div class="catalog-image">
-                        <img src="https://adishila.in/img/kavach-om.jpeg" alt="Kavach Shield OM Shungite Protection" loading="lazy">
+                        <img src="https://adishila.in/img/kavach-om.jpeg" alt="Kavach Shield OM Shungite Protection" width="400" height="300" loading="eager" fetchpriority="high">
                     </div>
                     <div class="catalog-content">
                         <div class="catalog-sku">Kavach Shield — OM</div>
