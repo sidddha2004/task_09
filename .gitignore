@@ -1,0 +1,7 @@
+# Images are too large for Git - use external hosting or Git LFS
+public/images/
+images/
+*.png
+*.jpg
+*.jpeg
+*.webp

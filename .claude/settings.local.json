@@ -3,7 +3,25 @@
     "allow": [
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(npx create-next-app@latest *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(timeout 5)",
+      "Read(//c/Users/rajee/AppData/Local/Temp/claude/D--Task-09/c9668c4c-be5d-48c9-b73a-641aa8f9b2d1/tasks/**)",
+      "Bash(git remote *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(git ls-tree *)",
+      "Bash(curl -s https://api.github.com/repos/sidddha2004/task_09)",
+      "Bash(git checkout *)",
+      "Bash(git reset *)",
+      "Bash(git fetch *)",
+      "Bash(dir /b *.png *.jpg)",
+      "Bash(cp images/*.png public/images/)",
+      "Bash(git config *)",
+      "Bash(mogrify -resize 800x800 -quality 85 *.png)"
     ]
   }
 }
