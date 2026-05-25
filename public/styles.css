@@ -815,6 +815,7 @@ img {
     width: 100%;
     height: 200px;
     object-fit: cover;
+    aspect-ratio: 4/3;
 }
 
 .catalog-content {
