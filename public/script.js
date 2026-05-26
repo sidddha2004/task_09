@@ -162,7 +162,7 @@
     });
 
     // Form submission
-    contactForm?.addEventListener('submit', function(e) {
+    contactForm?.addEventListener('submit', async function(e) {
         e.preventDefault();
 
         const formData = new FormData(this);
@@ -188,8 +188,16 @@
         submitBtn.classList.add('loading');
         submitBtn.disabled = true;
 
-        // Simulate API call
-        console.log('Form submitted:', data);
+        // Send to Make.com webhook for CRM automation
+        try {
+            await fetch('https://hook.eu1.make.com/b9xo4ehd9xa0rurqabex263ytsvtux67', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+        } catch (err) {
+            console.log('Webhook error (non-blocking):', err);
+        }
 
         setTimeout(() => {
             submitBtn.classList.remove('loading');
